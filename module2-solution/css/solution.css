@@ -8,19 +8,19 @@ section
 {
 	box-sizing: border-box;
 	float: left;
-	text-align: center;
+	text-align: justifyr;
+	text-decoration: justify;
 	border: 1px solid black;
 	margin: 1%;
 	background-color: grey;
 }
 span{
-	position: relative;
-	top:0%;
-	right:-42%;
+	/*position: relative;*/
+	clear: both;
+	float: right;
 	background-color: pink;
 	border: 1px solid black;
 	font-size: 1.25em;
-
 }
 p
 {

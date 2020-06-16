@@ -1,0 +1,55 @@
+h1
+{
+	color:red;
+	font-size: 1.75em;
+	text-align: center;
+}
+section
+{
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	border: 1px solid black;
+	margin: 1%;
+	background-color: grey;
+}
+span{
+	position: relative;
+	top:0%;
+	right:-42%;
+	background-color: pink;
+	border: 1px solid black;
+	font-size: 1.25em;
+
+}
+p
+{
+}
+
+@media (max-width: 767px)
+{
+	section{
+		width: 100%;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	section{
+		width: 48%;
+	}
+	section:nth-child(4){
+		width: 100%;
+	}
+
+}
+
+@media (min-width: 992px)
+{
+	section{
+		width: 31%;
+
+	}
+
+}
